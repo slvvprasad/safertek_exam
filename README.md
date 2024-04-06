@@ -1,4 +1,17 @@
 The files in the repo contains server.js which contains the main implementation of the program.
+To run these codes follow the steps:
+step 1: create a folder in your local .
+step 2: open the visual studio terminal
+        command: cd foldername
+step 3: run command : npm init -y
+step 4: install packages :
+        npm i express
+        npm i body-parser
+        npm i fs
+        npm i mime-types
+step 5: create a server.js and createFile.js files in the folder and paste those codes .
+run command : node server.js
+
 NOTE: USED 4000 as the port number because of the system permission denied. can also change to any port as required.
 
 To run the server:  node server.js
